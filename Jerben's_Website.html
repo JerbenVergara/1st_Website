@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jerben's First Website</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Jerben's First Website</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">Home</a></li>
+                <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">About</a></li>
+                <li><a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>About This Site</h2>
+                <p>This is a simple HTML for Jerben's first website.</p>
+            </section>
+            <section>
+                <h2>What I've Learned So Far</h2>
+                <ul>
+                    <li><strong>Creating a Table</strong></li>
+                    <table border="6">
+                        <thead>
+                            <tr>
+                                <th rowspan="2">Blank</th>
+                                <th colspan="2">Average</th>
+                                <th rowspan="2">Red Eyes</th>
+                            </tr>
+                            <tr>
+                                <th>Height</th>
+                                <th>Weight</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Males</th>
+                                <td>1.9</td>
+                                <td>0.003</td>
+                                <td>40%</td>
+                            </tr>
+                            <tr>
+                                <th>Females</th>
+                                <td>1.7</td>
+                                <td>0.002</td>
+                                <td>43%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <li><em>Creating Forms</em></li>
+                    <h4>Gym Registration</h4>
+                    <form action="Submit here">
+                        <label for="firstName">First Name:</label>
+                        <br>
+                        <input type="text" id="firstName" name="firstName" required>
+                        <br>
+                        <label for="lastName">Last Name:</label>
+                        <br>
+                        <input type="text" id="lastName" name="lastName" required>
+                        <br>
+                        <label>Gender:</label>
+                        <input type="radio" name="gender" id="male" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">Female</label>
+                        <br>
+                        <label for="age">Age:</label>
+                        <br>
+                        <input type="number" name="age" id="age">
+                        <br>
+                        <br>
+                        <label for="message">Reason for Registration:</label>
+                        <br>
+                        <textarea name="message" id="message" rows="4" cols="50"></textarea>
+                        <h4>Membership Type</h4>
+                        <input type="radio" name="membershipType" id="yearly" value="yearly">
+                        <label for="yearly">Yearly Membership</label>
+                        <input type="radio" name="membershipType" id="monthly" value="monthly">
+                        <label for="monthly">Monthly Membership</label>
+                        <h4>Freebies</h4>
+                        <input type="checkbox" name="freebies" id="jersey" value="jersey">
+                        <label for="jersey">Jersey</label>
+                        <br>
+                        <input type="checkbox" name="freebies" id="tShirt" value="tShirt">
+                        <label for="tShirt">T-Shirt</label>
+                        <br>
+                        <input type="checkbox" name="freebies" id="keyfob" value="keyfob">
+                        <label for="keyfob">Keyfob</label>
+                        <br>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <li><s>Adding Image</s></li>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" 
+                    alt="Troll Face"
+                    height="300px"
+                    width="300px">
+                    <img src=""
+                    alt="Troll Face"
+                    height="200px"
+                    width="300px">
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Jerben's First Website</p>
+        </footer>
+    </body>
+</html>
